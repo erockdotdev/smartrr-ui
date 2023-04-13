@@ -1,3 +1,3 @@
 export const Tag = () => {
-  return <div>index</div>;
-};
+  return <div>index</div>
+}

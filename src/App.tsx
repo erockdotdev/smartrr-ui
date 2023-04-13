@@ -1,16 +1,14 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import './App.css'
 
-import "@shopify/polaris/build/esm/styles.css";
-import { Button } from "./smartrr-ui-components/actions/Button";
+import '@shopify/polaris/build/esm/styles.css'
+import { Button } from './smartrr-ui-components/actions/Button'
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       Smartrr UI <Button>CLICK</Button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

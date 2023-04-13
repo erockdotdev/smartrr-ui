@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Smartrr UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lorem ipsum blah blah blah
 
-## Available Scripts
+Prereqs
+  - tsc
+  - node
+  - npm account instructions (https://betterprogramming.pub/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca#a15d)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm run qasdfasdf
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+TODO
+- improve git ignore
+- set up engine/node requirements
+- storybook
+- import aliasing
+- tests - ignore dist files
+- add husky for precommit tests to run
+- semvar
+  - automate semvar update
+- improve git ignore
+- lock dependency versions
+- audit and update package straty
+- Move package Readme
+- prereqs
+  - tsc
+  - node
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-- Add 3 ui components
+-- add storybook
+-- 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Resources
+[How to Create and Publish React TypeScript npm Package With Demo and Automated Build](https://betterprogramming.pub/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca#a15d)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Semantic Versioning](https://www.freecodecamp.org/news/semantic-versioning-1fd6f57749f7/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Creating and publishing public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Creating and publishing private packages](https://docs.npmjs.com/creating-and-publishing-private-packages)
