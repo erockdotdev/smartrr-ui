@@ -30,9 +30,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "peerDependencies": {
-    "react": "17.0.2",
-    "@shopify/polaris": "10.43.0"
+    "react": "17.x"
+  },
+  "dependencies": {
+    "@shopify/polaris": "^10.43.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
