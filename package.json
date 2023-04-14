@@ -35,7 +35,8 @@
     "npm": ">=8.x"
   },
   "peerDependencies": {
-    "react": ">=17.x"
+    "react": "^16.14.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.14.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "@shopify/polaris": "^10.43.0"
