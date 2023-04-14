@@ -1,4 +1,3 @@
-import '@shopify/polaris/build/esm/styles.css'
 import { Button } from './smartrr-ui-components/actions/Button'
 
 function App() {
