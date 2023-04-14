@@ -4,5 +4,8 @@
     "src/tests",
     "**/*.test.ts",
     "**/*.spec.ts",
+    "src/App.tsx",
+    "src/index.tsx",
+    "src/setupTests.ts",
   ],
 }
