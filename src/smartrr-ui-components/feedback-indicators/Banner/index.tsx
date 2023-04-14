@@ -1,6 +1,6 @@
 import { Banner as PolarisBanner } from '@shopify/polaris'
 
-const Banner = () => {
+export const Banner = () => {
   return (
     <PolarisBanner
       title='Order archived'
@@ -12,5 +12,3 @@ const Banner = () => {
     </PolarisBanner>
   )
 }
-
-export default Banner
