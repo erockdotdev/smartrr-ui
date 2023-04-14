@@ -15,11 +15,26 @@
   ],
   "author": "erockdotdev",
   "license": "MIT",
-  "dependencies": {
-    "@shopify/polaris": "^10.43.0"
+  "scripts": {
+    "prepare": "npm run prettier && npm run lint",
+    "publish:public": "npm publish --access public",
+    "ui-package:build": "npm run dist:clear && npm run ui-package:build:esm && npm run ui-package:build:cjs && npm run ui-package:build:readme ",
+    "ui-package:build:esm": "tsc --project tsconfig.build-ui.json",
+    "ui-package:build:cjs": "tsc --project tsconfig.build-ui.json --module commonjs --outDir dist/cjs",
+    "ui-package:build:readme": "cp src/documents/README.md dist",
+    "dist:clear": "rm -rf dist/",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
+    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "@shopify/polaris": "10.43.0"
   },
   "devDependencies": {
-    "@shopify/polaris": "^10.43.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -38,21 +53,6 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "prepare": "npm run prettier && npm run lint",
-    "publish:public": "npm publish --access public",
-    "ui-package:build": "npm run dist:clear && npm run ui-package:build:esm && npm run ui-package:build:cjs && npm run ui-package:build:readme ",
-    "ui-package:build:esm": "tsc --project tsconfig.ui-package.json",
-    "ui-package:build:cjs": "tsc --project tsconfig.ui-package.json --module commonjs --outDir dist/cjs",
-    "ui-package:build:readme": "cp src/documents/README.md dist",
-    "dist:clear": "rm -rf dist/",
-    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

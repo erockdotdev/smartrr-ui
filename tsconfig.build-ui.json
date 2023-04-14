@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.ui-package.json",
   "exclude": [
     "src/tests",
     "**/*.test.ts",
