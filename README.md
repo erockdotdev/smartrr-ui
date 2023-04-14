@@ -7,7 +7,12 @@ Prereqs
   - node
   - npm account instructions (https://betterprogramming.pub/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca#a15d)
 
+local development
+linking and unlinking
 
+https://dev.to/erinbush/npm-linking-and-unlinking-2h1g
+cd in to dist npm link
+npm unlink -g
 
 # Getting Started
 
@@ -18,18 +23,18 @@ npm run qasdfasdf
 
 
 TODO
-- improve git ignore
 - set up engine/node requirements
 - storybook
 - import aliasing
-- tests - ignore dist files
+- add tests
 - add husky for precommit tests to run
 - semvar
   - automate semvar update
-- improve git ignore
 - lock dependency versions
 - audit and update package straty
-- Move package Readme
+- go update repo and go through release flow again
+- test that package can be installed and used through npm again
+
 - prereqs
   - tsc
   - node
