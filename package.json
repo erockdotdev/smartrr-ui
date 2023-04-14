@@ -31,11 +31,11 @@
     "eject": "react-scripts eject"
   },
   "engines": {
-    "node": "16.x",
-    "npm": "8.x"
+    "node": ">=16.x",
+    "npm": ">=8.x"
   },
   "peerDependencies": {
-    "react": "17.x"
+    "react": ">=17.x"
   },
   "dependencies": {
     "@shopify/polaris": "^10.43.0"
