@@ -20,6 +20,8 @@ npm unlink -g
 npm run qasdfasdf
 ```
 
+✗ sudo npm rm --global @smartrr/smartrr-ui
+
 
 
 TODO
@@ -54,3 +56,16 @@ TODO
 [Creating and publishing public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 
 [Creating and publishing private packages](https://docs.npmjs.com/creating-and-publishing-private-packages)
+
+[Creating a React Component Library by Abstracting a React Component Library](https://benjaminwfox.medium.com/creating-a-react-component-library-by-abstracting-a-react-component-library-45290114d22a)
+
+[Material-UI theme not working in shared-component](https://stackoverflow.com/questions/69072004/material-ui-theme-not-working-in-shared-component)
+
+[Build a component library with React and TypeScript](https://blog.logrocket.com/build-component-library-react-typescript/) - includes storybook and tests & npm
+
+[Hybrid NPM package through TypeScript Compiler (TSC)](https://dev.to/mbarzeev/hybrid-npm-package-through-typescript-compiler-tsc-150c)
+
+[A step-by-step guide to building a shareable components library](https://www.devbridge.com/articles/a-step-by-step-build-to-build-a-sharable-components-library/)
+
+THIS SORT OF WORKED!!!
+[Unable to use a shared component library that uses material-ui ](https://github.com/mui/material-ui/issues/16862)

@@ -21,7 +21,7 @@
     "ui-package:build": "npm run dist:clear && npm run ui-package:build:esm && npm run ui-package:build:cjs && npm run ui-package:build:readme ",
     "ui-package:build:esm": "tsc --project tsconfig.build-ui.json",
     "ui-package:build:cjs": "tsc --project tsconfig.build-ui.json --module commonjs --outDir dist/cjs",
-    "ui-package:build:readme": "cp src/documents/README.md dist",
+    "ui-package:build:readme": "cp src/smartrr-ui-components/README.md dist",
     "dist:clear": "rm -rf dist/",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
@@ -36,10 +36,8 @@
   },
   "peerDependencies": {
     "react": "^16.14.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.14.0 || ^17.0.0 || ^18.0.0"
-  },
-  "dependencies": {
-    "@shopify/polaris": "^10.43.0"
+    "react-dom": "^16.14.0 || ^17.0.0 || ^18.0.0",
+    "@shopify/polaris": ">=10.43.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

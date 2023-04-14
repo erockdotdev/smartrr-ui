@@ -10,7 +10,7 @@
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
-    "rootDir": "./src/",
+    "rootDir": "./src/smartrr-ui-components",
     "outDir": "./dist/esm",
     "strict": true,
     "noImplicitReturns": true,
